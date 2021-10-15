@@ -1,0 +1,141 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@900&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background: #fff  url(../images/bg.jpg) fixed;
+    background-size:cover;
+    font-family: 'Lato', sans-serif;
+}
+
+
+header {
+    height:31rem;
+    text-align:center;
+}
+
+
+h1 {
+    margin:0;
+    font-family: 'Montserrat';
+    color:#efefef;
+    font-size: 3rem;
+    background-color: rgba(70, 0, 90, 05);
+    padding:0.2em;
+    font-weight:black;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, .2);
+    text-align:center;
+    
+}
+
+.site-nav {
+    margin:0 0 2rem 0;
+    padding:1rem;
+    background-color: rgba(20, 30, 50, 0.8);
+    
+}
+
+.site-nav ul {
+    margin:0;
+}
+
+.site-nav li {
+    display:inline-block;
+}
+
+.site-nav a {
+    color:white;
+    font-size: 1.25rem;
+    margin-right:1.5rem;
+}
+
+
+header h2{
+    margin:0;
+    font-size:1.25rem;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 2px rgba(20, 30, 50, 0.8);
+    background-color: rgba(20, 30, 50, 0.8);
+    color: hsl(219, 32%, 70%);
+    padding:15px 0;
+    word-spacing: .1em;
+}
+
+.img {
+    border-radius: 2%;
+    margin:auto;
+    width:600px;
+    border: 12px solid white;
+    display:block;
+ }
+
+h2 {
+    text-align:center;
+}
+
+.info {
+    max-width:60rem;
+    font-size:1.155rem;
+    width:90%;
+    padding-top:15px
+    }
+
+section {
+    padding:-1rem auto 3rem auto;
+}
+
+.info {
+    margin:-1rem auto 3rem auto;
+
+}
+
+.jump {
+    color: hsl(40, 50%, 70%);
+    padding:10px 0 0 0;
+    font-size:1.25rem;
+    background-color: rgba(20, 30, 50, 0.5);
+    margin:0 0 2rem 0;
+    padding:1rem;
+    text-align:center;
+}
+
+.jump {
+    margin:0;
+}
+
+.jump {
+    color:black;
+    font-size: 1.25rem;
+        
+}
+        
+a:link {
+    color: purple;
+
+}
+    
+a:visited {
+    color: darkgrey;
+    
+        
+}
+
+footer {
+    color: hsl(255, 255%, 255%);
+    text-align:center;
+    font-size:.955rem;
+    margin 0;
+    padding:1.5rem;
+    background-color: rgba(20, 30, 50, 0.8);
+    
+}
+
+;
+    }
+
+}
+
