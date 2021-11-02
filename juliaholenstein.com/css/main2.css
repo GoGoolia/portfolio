@@ -1,0 +1,434 @@
+              /* Fonts */
+   
+              @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+              * {
+                  box-sizing: border-box;
+              }
+              
+              body.home {
+                  //overflow: hidden;
+                  //height: 100vh;
+
+                }
+                  body {
+                    color: white;
+                    margin: 0;
+              }
+              .logo {
+                //position: fixed;
+                display: block;
+                //z-index: 10;
+                width: 170px;
+                padding-top: 8px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 20px;
+            }
+            
+            .hv {
+              max-width: 375px;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              //margin-bottom: 3%;
+              color: #fff;
+            }
+            .hv:hover {
+              opacity: .5;
+
+            }
+            p {
+              color: #2a2a2a;
+              font-family: 'lato';
+              font-size: 19px;
+          }
+              /* beginning of figcaption overlay cod*/
+            
+            .example, .bonus {
+              //margin: 5rem auto;
+              position:relative;
+              overflow:hidden;
+              //padding: 5px;
+              width: 375px;
+              height::content;
+            }
+            
+            .example > h3 {
+              text-transform: uppercase;
+              margin:5px 0;
+            }
+            
+            .example > img {
+              //outline: 1px solid #ccc;
+            }
+            
+            .example > figcaption {
+              position: absolute;
+              bottom: 10px;
+              //left:5px;
+              width: 375px;
+              font-family: Montserrat;
+              font-size: 18px;
+              text-align: center;
+              background: rgba(0, 0, 0, .5);
+              color: #fff;
+              padding: 7.35rem;
+              visibility: hidden;
+            }
+            
+            .example:hover > figcaption {
+              visibility: visible;
+            }
+            
+            /* version 2 (.bonus) */
+            
+            
+            .bonus > figcaption {
+              background: rgba(255, 0, 0, .5);
+              opacity: 0;
+              bottom:-40px;
+              transition: all .3s ease;
+            }
+            
+            .bonus:hover > figcaption {
+              opacity: 1;
+              bottom: 10px;
+              background: rgba(0, 0, 0, .5);
+            }
+              /*end of codepen*/
+
+              .roomtitle {
+                text-align: center
+                margin: 0px;
+                padding: 0pz;
+            }
+
+              .project {
+                display: block;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+              }
+              .wrapper-element {
+              background-color: #00c4ff;
+              overflow: hidden;
+              height: 100vh;
+              
+                
+
+            }
+            
+              header {
+                  background-color: #2a2a2a;
+                  //height: 9.5rem;
+                  //text-align: center;
+                  position: fixed;
+                  z-index: 10;
+                  width: 100vw;
+                  margin: 0;
+                
+
+              }
+              h2 {
+                  color: #2a2a2a;
+                  //background: #0095df;
+                  font-size: 25px;
+                  font-family: 'Montserrat';
+                  font-weight: 300;
+                  margin: 0;
+                  padding: .5em;
+                  text-align: center;
+                  width: 100%;
+                  vertical-align: baseline;
+              }
+              .site-nav {
+                  background-color: #2a2a2a;
+                 // margin: 0 0 2rem 0;
+                  //padding: .25 rem;
+                  width: 100%;
+                  /* Full width */
+
+            
+              }
+              .site-nav a {
+                  color: #efeee9;
+                  display: flex;
+                  font-size: 13px;
+                  margin-right: 1.5rem;
+                  text-decoration: none;
+                  font-family: 'Montserrat';
+                  font-weight: 600;
+                  justify-content: center;
+                  border-bottom: .5px dotted #797979;
+              }
+              .site-nav a:visited {
+                  color: #5fd6fa;
+
+              }
+              .site-nav a:hover {
+                  display: flex;
+                  font-size: 15px;
+                  margin-right: 1rem;
+                  text-decoration: none;
+                  font-family: 'Montserrat';
+                  font-weight: 600;
+                  border-bottom: none;
+                  font-family: 'lato';
+                  color: #000000;
+                  background-color: #00c4ff;
+                  padding: .5rem 1rem;
+                  transition: all .5s ease;
+              }
+              .parent { 
+                display: flex;
+                flex-direction: row;
+                flex-direction: column;
+              }
+              /*.drop-list {
+                  display: relative;*/
+              }
+              nav a {
+                  color: #efeee9;
+                  display: inline-block; 
+                  font-size: 14px;
+                  margin-right: .5rem;
+                  text-decoration: none;
+                  font-family: 'Montserrat';
+                  overflow: hidden;
+              }
+              nav ul {
+                  list-style: none;
+                  padding: 0;
+                  background: #2a2a2a;
+                  display: flex;
+                  flex-direction: column;
+                  
+              }
+              nav ul li a {
+                  color: #efeee9;
+                  text-decoration: none;
+                  padding: .7rem .25rem;
+                  display: block;
+                  line-height: .75;
+                  font-family: 'Monserat';
+              }
+              nav ul li {
+                  border-bottom: none
+                  //z-index:1; /*Add this*/
+            
+              }
+
+              h1 {
+                  margin: 0;
+                  text-align: center;
+                  padding: 15px 0;
+                  color: #2a2a2a;
+                  font-size: 25px;
+                  font-family: 'Montserrat';
+                  font-weight: 600;
+              }
+              h3 {
+                  margin: 0;
+                  padding: 15px 0;
+                  word-spacing: .1em;
+                  color: #252835;
+                  font-size: 21px;
+                  font-weight: 600;
+                  font-family: 'Montserrat';
+              }
+              .responsive {
+                //border: 5px solid red;
+                width: 100%;
+                max-width: 1125px;
+               // max-height: 900px;
+                //margin-top: 70px;
+              }
+
+              .responsive ul {
+                //border: 5px solid rgb(105, 73, 223);
+                width: 100%;
+                margin: 0;
+                padding: 5px;
+                list-style: none;
+                display: grid;
+                //border:2px solid rgb(25, 255, 4);
+                grid-gap: 0;
+                grid-template-columns: repeat(auto-fit, minmax(340px,1fr));
+                margin-top: 160px;
+                margin-bottom: 2em;
+              
+              }
+              .folio {
+                     
+              }
+
+              .folio main {
+               border: 10px solid;
+               display:flex;
+               justify-content: center;
+              }
+
+              a:visited {
+                  color: gray;
+              }
+              /*begin disney page styling*/
+              
+              .block {
+                //background: #2C314F url(../images/nf.jpg) no-repeat;
+                width: 100%;
+                height: 10fr;
+                text-align: center;
+                border-bottom: 20px solid #2a2a2a;
+                background-position: 120 100%;
+            }
+            .rooms {
+              width: 100%;
+              margin-top: 30px;
+            }
+
+            .room-body {
+              margin-right: 5%;
+              margin-left: 5%;
+              font-family: 'lato';
+              font-size: 17px;
+              line-height: 150%;
+              font-weight: 400;
+              text-align: start;
+              font-family: lato;
+          }
+            
+              footer {
+                  color: #bbbbbb;
+                  background-color: #2a2a2a;
+                  width: 100%;
+                  height: 10rem;
+                  padding-top: 15px;
+                  font-size: 11px;
+                  text-align: center;
+                  vertical-align: middle;
+                  line-height: 135%;
+                  font-family: 'Montserrat';
+                  animation: slide 2s ease-out forwards;
+                  
+              }
+              @media screen and (min-width: 1024px) {
+                  .home {
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: space-between;
+                  }
+                  .responsive ul {
+                    margin-top: 6%;
+
+                  }
+                  /*adjust the following to change the height of the nav*/
+                  
+                  .site-nav ul {
+                      flex-direction: row;
+                      justify-content: flex-end;
+
+                  /*adjust the following to change the font size*/
+                  }
+                  .site-nav a {
+                    color: #00c4ff;
+                      color: #efeee9;
+                      display: flex;
+                      font-size: 15px;
+                      margin-right: 1rem;
+                      text-decoration: none;
+                      font-family: 'Montserrat';
+                      font-weight: 600;
+                      border-bottom: none;
+                      font-family: 'lato';
+                      transition: background-color 1s linear;
+                 }
+                 .transition :hover {
+                    color: #00c4ff;
+                    display: flex;
+                    font-size: 15px;
+                    margin-right: 1rem;
+                    text-decoration: none;
+                    font-family: 'Montserrat';
+                    font-weight: 600;
+                    border-bottom: none;
+                    font-family: 'lato';
+                    background-color: red;
+                    padding: .5rem 1rem;
+                    transition: all 1s ease;
+                    
+                  }
+
+
+                .logo {
+                  margin-left: 20px;
+                  padding-top: 10px;
+                  position: fixed;
+                  //z-index: 10;
+                  width: 200px;
+                  
+              }
+                  header {
+                      text-align: left;
+                      display: flex;
+                      justify-content: space-between;
+
+                }
+                  h1 {
+                      font-size: 32px;
+                }
+                  h2 {
+                    font-size: 32px;
+                }
+                  .room-body {
+                    margin-right: 15%;
+                    margin-left: 15%;
+                    font-family: 'lato';
+                    font-size: 20px;
+                    line-height: 150%;
+                    font-weight: 400;
+                    text-align: start;
+                    font-family: lato;
+                }
+                  .box-d {
+                      color: gainsboro;
+                      grid-column: 1 / 5;
+                      grid-row: 3;
+                      /* help
+                      background-color: #2a2a2a;
+                       */
+                      height: 20rem;
+                      font-size: 12px;
+                      color: dimgray;
+                      padding-top: 20px;
+                      text-align: center;
+                      font-family: 'lato'; 
+                      width: 100%;
+                      border-top: 2% solid #fff;
+
+                    } 
+
+                    /* end portfolio pagestyles */
+
+                    /* begin about styles*/
+
+
+                    .folio {
+                     
+                    }
+ 
+                    /* end portfolio page styles */
+                   /* hide grid
+                    .parent2 { 
+                      display: grid; 
+                      grid-template-columns: repeat(3, 1fr); 
+                      grid-template-rows: repeat(3, 1fr); 
+                      grid-column-gap: 0px;
+                      grid-row-gap: 0px; 
+                      }
+                      .project-title { grid-area: 1 / 1 / 2 / 4; } 
+                      .logo2-position { grid-area: 2 / 1 / 3 / 4; } 
+                      .description { grid-area: 3 / 1 / 4 / 2; } 
+                      .goals { grid-area: 3 / 2 / 4 / 3; } 
+                      .results { grid-area: 3 / 3 / 4 / 4; } */
+                  
+              }
