@@ -1,0 +1,22 @@
+Title: HOME
+
+----
+
+Text: VISUAL STORYTELLER MANAGING CREATIVE DIRECTION THAT EXCITES CONSUMERS AND GROWS ICONIC BRANDS
+
+----
+
+Intro: This is the intro
+
+----
+
+Notes: Markdown is a shortcut for HTML. Maker sure fields are capitalized.
+
+----
+
+Images: This is where images live
+
+----
+
+Button: ENTER
+
